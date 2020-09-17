@@ -1,0 +1,19 @@
+{
+    "indent": "    ",
+    "sortFirst": [
+        "name",
+        "version",
+        "description",
+        "main",
+        "scripts",
+        "eslintConfig",
+        "publishConfig",
+        "dependencies",
+        "devDependencies",
+        "author",
+        "repository",
+        "homepage",
+        "bugs",
+        "license"
+    ]
+}

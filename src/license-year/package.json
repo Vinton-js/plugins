@@ -1,0 +1,17 @@
+{
+    "name": "@vinton/license-year",
+    "version": "0.0.0",
+    "description": "Check that the license year is up-to-date",
+    "main": "./license-year.js",
+    "scripts": {
+        "test": "ava"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "GMartigny",
+    "repository": "Vinton-js/plugins.git",
+    "homepage": "https://github.com/Vinton-js/plugins#readme",
+    "bugs": "https://github.com/Vinton-js/plugins/issues",
+    "license": "MIT"
+}

@@ -1,0 +1,26 @@
+{
+    "name": "@vinton/plugins",
+    "version": "0.0.0",
+    "description": "Plugins mono-repo",
+    "main": "index.js",
+    "scripts": {
+        "init": "lerna bootstrap --hoist",
+        "prepublishOnly": "exit 0",
+        "test": "ava"
+    },
+    "eslintConfig": {
+        "extends": "@gmartigny/eslint-config"
+    },
+    "devDependencies": {
+        "@gmartigny/eslint-config": "^1.6.0",
+        "ava": "^3.12.1",
+        "eslint": "^7.9.0",
+        "lerna": "^3.22.1",
+        "syncpack": "^5.6.7"
+    },
+    "author": "GMartigny",
+    "repository": "Vinton-js/plugins.git",
+    "homepage": "https://github.com/Vinton-js/plugins#readme",
+    "bugs": "https://github.com/Vinton-js/plugins/issues",
+    "license": "MIT"
+}

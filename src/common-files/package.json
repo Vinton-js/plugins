@@ -1,0 +1,21 @@
+{
+    "name": "@vinton/common-files",
+    "version": "0.0.0",
+    "description": "Check some common file presence",
+    "main": "./common-files.js",
+    "scripts": {
+        "test": "ava"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "glob": "^7.1.6"
+    },
+    "devDependencies": {},
+    "author": "GMartigny",
+    "repository": "Vinton-js/plugins.git",
+    "homepage": "https://github.com/Vinton-js/plugins#readme",
+    "bugs": "https://github.com/Vinton-js/plugins/issues",
+    "license": "MIT"
+}
